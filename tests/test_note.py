@@ -65,3 +65,4 @@ class Test_note(unittest.TestCase):
     def test_getter_note(self):
         notatka = Note('notatka', 3.0)
         self.assertEqual(notatka.getNote(), 3.0)
+
